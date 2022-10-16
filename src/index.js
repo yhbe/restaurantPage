@@ -1,1 +1,2 @@
-console.log("Hello!");
+import * as module from "./initialPageLoad";
+module.pageLoad();
