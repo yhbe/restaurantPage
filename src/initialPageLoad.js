@@ -1,5 +1,6 @@
 export function pageLoad() {
   const content = document.querySelector(".content");
+  content.innerHTML = "";
   const h1 = document.createElement("h1");
   h1.classList.add("landingTitle");
   const p = document.createElement("p");
