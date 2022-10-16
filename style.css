@@ -5,3 +5,32 @@ body{
   text-align: center;
   background-color: lightblue;
 }
+
+.landingTitle{
+  font-size: 3rem;
+}
+
+.landingP{
+  font-size: 1.2rem;
+}
+
+ul{
+  gap: 15px;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.headerButton{
+  font-size: 1rem;
+  padding: 15px 35px;
+  background-color: white;
+  border-radius: 15%;
+  box-shadow: 1px 1px;
+  cursor: pointer;
+}
+
+.headerButton:hover{
+  color: white;
+  background-color: rgb(194, 59, 59);
+}
