@@ -1,2 +1,3 @@
-import * as module from "./initialPageLoad";
-module.pageLoad();
+import { pageLoad } from "./initialPageLoad";
+
+pageLoad();
