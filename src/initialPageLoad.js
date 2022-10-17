@@ -1,3 +1,4 @@
+import restaurantImage from "./restaurantImage.jpg";
 export function pageLoad() {
   const content = document.querySelector(".content");
   content.innerHTML = "";
@@ -11,7 +12,7 @@ export function pageLoad() {
   h1.innerHTML = "Tom's Diner";
   p.innerHTML =
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Voluptatum nisi est expedita, modi maxime molestias aperiam in vitae temporibus porro.<br />  Nisi aperiam laborum nesciunt.";
-  img.src = "../restaurantImage.jpg";
+  img.src = restaurantImage;
   img.alt = "diner image";
 
   content.append(h1, p, img);
