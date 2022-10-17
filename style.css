@@ -11,7 +11,7 @@ body{
 }
 
 .landingP{
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 ul{
@@ -33,4 +33,9 @@ ul{
 .headerButton:hover{
   color: white;
   background-color: rgb(194, 59, 59);
+}
+
+.menuP{
+  font-size: 2rem;
+  line-height: 3rem;
 }
