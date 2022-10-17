@@ -15,5 +15,8 @@ export function pageLoad() {
   img.src = restaurantImage;
   img.alt = "diner image";
 
-  content.append(h1, p, img);
+  const a = document.createElement("p");
+  a.innerHTML = "Image by Ricky Singh @rickysinghy on Unsplash";
+
+  content.append(h1, p, img, a);
 }
